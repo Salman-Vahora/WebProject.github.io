@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+<nav>
+    <img src="image/logo.png" alt="Spice Safari Logo" class="logo">
+<div class="navbar">
+    <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="Recipes.html">Recipes</a></li>
+        <li><a href="Contect.html">Contect</a></li>
+        <li><a href="Sitemap.html">Sitemap</a></li>
+    </ul>
+</div>
+</nav>
+<body>
+    <main class="dish-main">
+        <div class="block">
+            <h2>Contact Us To Improve Our WebSite</h2>
+            </div>
+            <form>
+            <fieldset>
+                <legend class="bold">Your Information</legend>
+                <div class="block">
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="block">
+                <label for="num">Your Phone Number: </label>
+                <input type="tel" id="num" name="num" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+                
+                <div class="block">
+                <label for="email">Your Email: </label>
+                <input type="email" id="email" name="email" required>
+                </div>
+            </fieldset>
+            <div class="block"></div>
+            <fieldset>
+                <legend class="bold">Recipe To Improve</legend>
+                <div class="block">
+                    <label for="recipeImprove">Recipe Name: </label>
+                    <input type="text" id="recipeImprove" name="recipeImprove">
+                </div>
+                <label for="feedback" class="block">Feedback:</label>
+                <textarea id="feedback" name="feedback"></textarea>
+            </fieldset>
+            <div class="block"></div>
+            <fieldset>
+                <legend class="bold">Racipe To Add</legend>
+                <div class="block">
+                <label for="recipeName">Recipe Name: </label>
+                <input type="text" id="recipeName" name="recipeName">
+                </div>
+                <div class="block">
+                <label for="recipeingrediants" class="block">Recipe Ingredients:</label>
+                <textarea id="recipeingrediants" name="recipeingrediants"></textarea>
+                </div>
+                <div class="block">
+                <label for="recipePreparation" class="block">Recipe Preparation:</label>
+                <textarea id="recipePreparation" name="recipePreparation"></textarea>
+                </div>
+                <div class="block">
+                <label for="recipeInstructions" class="block">Recipe Instructions:</label>
+                <textarea id="recipeInstructions" name="recipeInstructions"></textarea>
+                </div>
+            </fieldset>
+            <div class="block"></div>
+            <fieldset>
+                <legend class="bold">Submit Form</legend>
+                <div class="block">
+                <label for="submit">Submit: </label>
+                <input type="submit" id="submit" name="submit">
+                </div>
+                <div class="block">
+                <label for="reset">Reset: </label> 
+                <input type="reset" id="reset" name="reset">  
+                </div>  
+            </fieldset>
+            </form>
+        </main>
+        <footer>Copyright &copy; 2025</footer>
+</body>
+</html>
